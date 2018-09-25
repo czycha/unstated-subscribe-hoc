@@ -36,7 +36,7 @@ import DisplayContainer from './DisplayContainer'  // Another Unstated.Container
 
 const Example = ({ cart, display }) => (
   <div className={display.state.hideExample && 'hide'}>
-    {cart.state.items} item{cart.state.items.length === 1 ? '' : 's'} in your cart
+    {cart.state.items.length} item{cart.state.items.length === 1 ? '' : 's'} in your cart
   </div>
 )
 
