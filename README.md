@@ -28,7 +28,7 @@ const SubscribedReactComponent = subscribe(
 
 ## Example
 
-```js
+```jsx
 import React from 'react'
 import subscribe from 'unstated-subscribe-hoc'
 import CartContainer from './CartContainer'  // Some Unstated.Container
